@@ -12,7 +12,6 @@
     <h1>Task Timer</h1>
     <div id="timerDisplay">00:00</div>
     
-    
     <div class="preset-buttons">
       <button class="preset" data-time="60">1 Minute</button>
       <button class="preset" data-time="180">3 Minutes</button>
@@ -20,12 +19,17 @@
       <button class="preset" data-time="540">9 Minutes</button>
     </div>
 
-   
     <div class="controls-container">
       <input type="number" id="minutes" placeholder="Minutes" min="0">
       <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
       <button id="startButton">Start</button>
       <button id="resetButton">Reset</button>
+    </div>
+
+    <!-- New buttons for regular timer -->
+    <div class="controls-container">
+      <button id="startRegularTimerButton">Start Timer</button>
+      <button id="stopRegularTimerButton">Stop Timer</button>
     </div>
   </div>
 
